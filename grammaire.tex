@@ -1,0 +1,143 @@
+\documentclass{report}
+
+% Packages for math symbols and equations
+
+\usepackage[
+natbib,
+style=alphabetic,
+maxbibnames=10,  
+sorting=ydnt,
+url=false,
+doi=false,
+sortcites,
+defernumbers,
+backref,
+backend=biber
+]{biblatex}
+\addbibresource{bibliography.bib}
+\usepackage{soul} % For strikethrough
+
+% Title page information
+\title{Grammaire française}
+\author{Giorgos}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Subjonctif présent}
+\section{Formation}
+Le subjonctif présent est formé sur la racine de la \textbf{3ème personne} du pluriel de l'indicatif présent. On ajoute les terminaisons suivantes:
+\begin{center}
+    -e, -es, -e, -ions, -iez, -ent    
+\end{center}
+\section{Emploi}
+Pour utiliser le subjonctif présent, il faut que le sujet de la principale soit différent du sujet de la subordonnée. Si c'est pas le cas, on utilise l'indicatif.
+Par exemple:
+\begin{itemize}
+    \item \st{Je veux que je sois heureux} \textrightarrow Je veux être heureux
+    \item \st{Tu es triste que tu ne puisses pas venir à la fête} \textrightarrow Tu es triste de ne pas pouvoir venir à la fête
+    \item \st{Il doute qu’il réussisse son examen} \textrightarrow Il doute de réussir son examen
+\end{itemize}
+On utilise le subjonctif présent après les verbes suivants:
+\begin{center}
+    \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+        \hline
+        \textbf{Volonté, Obligation, Nécessité} & \textbf{Sentiments, émotions} \\
+        \hline
+        \begin{itemize}
+            \item vouloir, avoir envie, désirer, souhaiter, accepter, refuser que
+            \item être d’accord/ne pas être d’accord que
+            \item aimer que
+            \item avoir besoin que
+            \item exiger, ordonner, demander que
+            \item Il faut que
+            \item Il est urgent, important, nécessaire, essentiel que
+        \end{itemize} 
+        & 
+        \begin{itemize}
+            \item aimer, apprécier, regretter que
+            \item avoir peur, craindre que
+            \item être triste, désolé, heureux, content que
+            \item être, surpris, étonné, fâché, scandalisé que
+            \item c’est dommage, génial que
+            \item \textbf{Attention:} Espérer que est suivi de l'indicatif.
+        \end{itemize} \\
+        \hline
+        \textbf{Doute} & \textbf{Opinion, forme négative, forme interrogative} \\
+        \hline
+        \begin{itemize}
+            \item douter que
+            \item ne pas être sûr que
+            \item il est possible/impossible que
+        \end{itemize} 
+        & 
+        \begin{itemize}
+            \item ne pas penser / trouver / croire que
+            \item Crois-tu que … ?
+            \item \textbf{Attention:} Penser / trouver / croire que est suivi de l'indicatif.
+        \end{itemize} \\
+        \hline
+    \end{tabular}
+\end{center}
+On l'utilise aussi avec les conjonctions suivantes:
+\begin{itemize}
+    \item (But) pour que, afin que
+    \item (Temps) avant que, jusqu’à ce que, en attendant que
+    \item (Conséquence) quoique (formel), bien que
+    \item (Condition) à condition que
+    \item (Manière) sans que
+\end{itemize}
+
+
+\chapter{Relations logiques}
+Les relations logiques les plus importantes sont les suivantes:
+
+\begin{center}
+    \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+        \hline
+        \textbf{Cause} & \textbf{Conséquence} \\
+        \hline
+        \begin{itemize}
+            \item \textbf{à cause de} + nom (cause négative)
+            \item \textbf{grâce à} + nom (cause positive)
+            \item \textbf{en raison de} + nom (formel)
+            \item \textbf{parce que} + indicatif
+            \item \textbf{car} + indicatif
+            \item \textbf{puisque} + indicatif (cause évidente ou connue)
+            \item \textbf{comme} + indicatif (en début de phrase)
+        \end{itemize} 
+        & 
+        \begin{itemize}
+            \item \textbf{donc}
+            \item \textbf{alors}
+            \item \textbf{par conséquent}
+            \item \textbf{c'est pourquoi}
+            \item \textbf{c'est la raison pour laquelle}
+            \item verbe + \textbf{tellement que} ou \textbf{tellement de} + nom
+            \item \textbf{si} + adjectif + \textbf{que}
+        \end{itemize} \\
+        \hline
+        \end{tabular}    
+\end{center}
+
+\begin{center}
+    \textbf{Les principales conjonctions}
+    \begin{tabular}{|p{0.3\textwidth}|p{0.3\textwidth}|p{0.3\textwidth}|}
+        \hline
+        \textbf{+ indicatif} & \textbf{+ subjonctif} & \textbf{+ conditionnel} \\
+        \hline
+        Contenu 1 & Contenu 2 & Contenu 3 \\
+        \hline
+        Contenu 4 & Contenu 5 & Contenu 6 \\
+        \hline
+        Contenu 7 & Contenu 8 & Contenu 9 \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\printbibliography
+\end{document}
